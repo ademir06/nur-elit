@@ -18,20 +18,25 @@
           display: none;
         }
       }
+
       .hamburger-menu {
         display: block;
-        ul,li{
+
+        ul, li {
           display: block;
         }
+
         .menu__btn {
           top: 55px;
           right: 10px;
           left: 340px;
         }
       }
+
       #menu__toggle {
         opacity: 0;
       }
+
       /* стилизуем кнопку */
       .menu__btn {
         display: flex; /* используем flex для центрирования содержимого */
@@ -44,6 +49,7 @@
         cursor: pointer;
         z-index: 1;
       }
+
       /* добавляем "гамбургер" */
       .menu__btn > span,
       .menu__btn > span::before,
@@ -54,14 +60,17 @@
         height: 2px;
         background-color: #ffffff;
       }
+
       .menu__btn > span::before {
         content: '';
         top: -8px;
       }
+
       .menu__btn > span::after {
         content: '';
         top: 8px;
       }
+
       /* контейнер меню */
       .menu__box {
         display: block;
@@ -78,6 +87,7 @@
         background-color: #ECEFF1;
         box-shadow: 1px 0px 6px rgba(0, 0, 0, .2);
       }
+
       /* элементы меню */
       .menu__item {
         display: block;
@@ -88,32 +98,40 @@
         font-weight: 600;
         text-decoration: none;
       }
+
       .menu__item:hover {
         background-color: #CFD8DC;
       }
+
       #menu__toggle:checked ~ .menu__btn > span {
         transform: rotate(45deg);
       }
+
       #menu__toggle:checked ~ .menu__btn > span::before {
         top: 0;
         transform: rotate(0);
       }
+
       #menu__toggle:checked ~ .menu__btn > span::after {
         top: 0;
         transform: rotate(90deg);
       }
+
       #menu__toggle:checked ~ .menu__box {
         visibility: visible;
         right: 0;
       }
+
       .menu__btn > span,
       .menu__btn > span::before,
       .menu__btn > span::after {
         transition-duration: .25s;
       }
+
       .menu__box {
         transition-duration: .25s;
       }
+
       .menu__item {
         transition-duration: .25s;
       }
@@ -210,11 +228,11 @@
       .block__fiftin {
         display: block;
 
-        img {
-          width: 100%;
-        }
       }
 
+      img {
+        width: 100%;
+      }
 
       .block__ten {
         display: block;
@@ -325,7 +343,7 @@
           display: block !important;
 
           img {
-            width: 100%;
+            width: 90%;
           }
 
           .address__two {
@@ -346,6 +364,10 @@
 
         h2 {
           padding: 10px 0;
+        }
+
+        a {
+          margin-bottom: 20px;
         }
       }
     }

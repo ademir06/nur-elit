@@ -782,14 +782,6 @@ header.sticky {
   color: white;
   background: #842231;
 }
-#presentation .content__presentation .block__presentation--one .button--:hover {
-  display: flex;
-  flex-direction: row;
-  align-items: flex-start;
-  background: red;
-  transition: 0.4s;
-  border: none;
-}
 
 #payment .container .content--payment {
   position: relative;
